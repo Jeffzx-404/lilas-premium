@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#676d52">
+  <meta name="description" content="LILAS Catering y Eventos. Sabores peruanos para matrimonios, celebraciones familiares y encuentros empresariales. Conoce nuestra carta y consulta por tu evento.">
+  <title>LILAS — El arte de compartir la mesa</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;600;650;700&family=Newsreader:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="cinematic.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-diagonal" viewBox="0 0 24 24"><path d="M5 19 19 5M6 5h13v13"/></symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="icon-flower" viewBox="0 0 32 32"><path d="M16 16C1 14 6 2 12 5c3 1 4 6 4 11Zm0 0c2-15 14-10 11-4-1 3-6 4-11 4Zm0 0c15 2 10 14 4 11-3-1-4-6-4-11Zm0 0C14 31 2 26 5 20c1-3 6-4 11-4Z"/></symbol>
+    <symbol id="icon-plate" viewBox="0 0 32 32"><circle cx="17" cy="16" r="9"/><circle cx="17" cy="16" r="5.5"/><path d="M3 3v8m3-8v8M3 8h3M4.5 11v18M29 3v26"/></symbol>
+    <symbol id="icon-service" viewBox="0 0 32 32"><path d="M3 22h26M6 20a10 10 0 0 1 20 0M16 10V7m-2 0h4M7 26h18"/></symbol>
+    <symbol id="icon-phone" viewBox="0 0 24 24"><path d="m5 3 4 1 1 5-3 2a16 16 0 0 0 6 6l2-3 5 1 1 4c-1 4-7 2-11-1S2 7 5 3Z"/></symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.7 7.5L3 20.5l1.4-4.6a8.5 8.5 0 1 1 16.1-4.3Z"/><path d="m8 7 2 2-1 2a9 9 0 0 0 4 3l1-1 2 1c0 3-3 2-5 1-4-2-5-7-3-8Z"/></symbol>
+  </svg>
+
+  <header class="site-header" id="arriba">
+    <div class="container header-inner">
+      <a class="brand-emblem" href="#inicio" aria-label="LILAS, volver al inicio"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-flower"></use></svg><span>EL GUSTO <br>DE REUNIRNOS</span></a>
+      <a class="brand" href="#inicio" aria-label="LILAS Catering y Eventos, inicio"><span class="brand-name">LILAS</span><span class="brand-tagline">CATERING & EVENTOS</span></a>
+      <nav class="desktop-nav" aria-label="Navegación principal"><a href="#filosofia">Nuestra esencia</a><a href="#sabores">La carta</a><a href="#servicios">Celebraciones</a><a href="#servicio">El servicio</a><a href="#cotizador">Contacto</a></nav>
+      <div class="header-actions"><a class="header-cta" href="#cotizador">Cotizar mi evento <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-controls="mobileMenu" aria-expanded="false"><span></span><span></span></button></div>
+    </div>
+    <nav class="mobile-nav" id="mobileMenu" aria-label="Navegación móvil" hidden><a href="#inicio">Inicio</a><a href="#filosofia">Nuestra esencia</a><a href="#sabores">La carta</a><a href="#servicios">Celebraciones</a><a href="#servicio">El servicio</a><a href="#cotizador">Hablemos de tu evento <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-arrow"></use></svg></a></nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero cinematic-hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img class="hero-poster" src="assets/img/eventos/boda-poster.jpg" alt="" width="1920" height="1080" fetchpriority="high">
+        <video id="heroVideo" class="hero-video" muted loop playsinline preload="none" poster="assets/img/eventos/boda-poster.jpg" data-desktop-src="assets/video/boda-lilas-1080.mp4" data-mobile-src="assets/video/boda-lilas-720.mp4" tabindex="-1"></video>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="container cinematic-content">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">Catering peruano · Celebraciones con alma</p>
+          <h1 id="hero-title">El sabor de <br><em>celebrar juntos.</em></h1>
+          <div class="hero-actions"><a class="button button-glass" href="#cotizador">Hablemos de tu evento <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div>
+          <div class="hero-contact"><a href="https://wa.me/51971621383?text=Hola%2C%20quisiera%20solicitar%20una%20cotizaci%C3%B3n%20para%20mi%20evento" target="_blank" rel="noopener noreferrer"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg> +51 971 621 383</a><a href="mailto:lilascatering.eventos@gmail.com"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-mail"></use></svg> <span>lilascatering.eventos@gmail.com</span></a></div>
+        </div>
+      </div>
+      <span class="hero-side-note" aria-hidden="true">UNA MESA. MUCHOS BUENOS MOMENTOS.</span>
+      <div class="container cinematic-bottom"><a class="discover-link" href="#filosofia"><span class="scroll-line" aria-hidden="true"></span>Descubre LILAS <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-arrow"></use></svg></a><div class="video-tools"><span class="footage-note">Ambiente de boda referencial</span><button id="videoToggle" class="video-toggle" type="button" aria-controls="heroVideo" aria-label="Reproducir video de fondo"><svg class="icon video-control-icon" viewBox="0 0 24 24" aria-hidden="true"><path class="play-glyph" d="m9 5 10 7-10 7Z"/><path class="pause-glyph" d="M8 5v14M16 5v14"/></svg><span class="video-toggle-label">Reproducir</span></button></div></div>
+      <span id="videoStatus" class="sr-only" role="status"></span>
+      <noscript><style>.video-toggle{display:none}</style></noscript>
+    </section>
+
+    <section class="essence section" id="filosofia" aria-labelledby="essence-title">
+      <div class="container essence-grid">
+        <div class="section-marker"><span class="eyebrow">La esencia de LILAS</span><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-flower"></use></svg></div>
+        <div class="essence-copy"><h2 id="essence-title">Hay momentos que merecen <br>una mesa <em>especial.</em></h2><p>Un cumpleaños, un sí, un reencuentro. En LILAS acompañamos las ocasiones que reúnen a las personas, con platos de nuestra cocina y una atención cercana desde la primera consulta.</p></div>
+      </div>
+      <div class="container offering-row">
+        <div><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-flower"></use></svg><span><strong>Sabores peruanos</strong><small>Entradas y platos para compartir</small></span></div>
+        <div><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plate"></use></svg><span><strong>La mesa, lista</strong><small>Vajilla, cubiertos y servilletas</small></span></div>
+        <div><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-service"></use></svg><span><strong>Atención en tu evento</strong><small>Servicio de mozo uniformado</small></span></div>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="sabores" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-heading menu-heading"><div><p class="eyebrow">Nuestra propuesta gastronómica</p><h2 id="menu-title">Sabores que invitan <br>a <em>quedarse.</em></h2></div><div class="heading-aside"><p>Cocina peruana para disfrutar y compartir.</p><a class="underlined-link" href="#cotizador">Consultar un menú <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></div>
+        <div class="dish-grid">
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/cabrito-norteno-900.jpg" srcset="assets/img/platos/cabrito-norteno-480.jpg 480w, assets/img/platos/cabrito-norteno-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Cabrito norteño. Frejoles, arroz y yuca." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Plato de fondo</span><h3>Cabrito norteño</h3><p>Frejoles, arroz y yuca.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/asado-de-ternera-900.jpg" srcset="assets/img/platos/asado-de-ternera-480.jpg 480w, assets/img/platos/asado-de-ternera-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Asado de ternera. Puré de papas y arroz." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Plato de fondo</span><h3>Asado de ternera</h3><p>Puré de papas y arroz.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/causa-de-pollo-900.jpg" srcset="assets/img/platos/causa-de-pollo-480.jpg 480w, assets/img/platos/causa-de-pollo-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Causa de pollo. Rellena de pollo." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Entrada</span><h3>Causa de pollo</h3><p>Rellena de pollo.</p></div>
+          </article></div>
+        <details class="full-menu">
+          <summary><span class="menu-open-label">Descubrir toda la carta</span><span class="menu-close-label">Ver menos platos</span><span class="menu-count">10 propuestas</span><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plus"></use></svg></summary>
+          <div class="dish-grid extended-menu">
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/pollo-al-horno-900.jpg" srcset="assets/img/platos/pollo-al-horno-480.jpg 480w, assets/img/platos/pollo-al-horno-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Pollo al horno. Ensalada blanca y arroz." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Plato de fondo</span><h3>Pollo al horno</h3><p>Ensalada blanca y arroz.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/pato-guisado-900.jpg" srcset="assets/img/platos/pato-guisado-480.jpg 480w, assets/img/platos/pato-guisado-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Pato guisado. Frejoles, arroz y yuca." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Plato de fondo</span><h3>Pato guisado</h3><p>Frejoles, arroz y yuca.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/pollo-a-la-parrilla-900.jpg" srcset="assets/img/platos/pollo-a-la-parrilla-480.jpg 480w, assets/img/platos/pollo-a-la-parrilla-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Pollo a la parrilla. Papa sancochada y ensalada fresca." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Plato de fondo</span><h3>Pollo a la parrilla</h3><p>Papa sancochada y ensalada fresca.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/filete-de-carne-900.jpg" srcset="assets/img/platos/filete-de-carne-480.jpg 480w, assets/img/platos/filete-de-carne-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Filete de carne. Papas sancochadas y ensalada." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Plato de fondo</span><h3>Filete de carne</h3><p>Papas sancochadas y ensalada.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/tamal-900.jpg" srcset="assets/img/platos/tamal-480.jpg 480w, assets/img/platos/tamal-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Tamales. Sabor peruano tradicional." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Entrada</span><h3>Tamales</h3><p>Sabor peruano tradicional.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/huancaina-900.jpg" srcset="assets/img/platos/huancaina-480.jpg 480w, assets/img/platos/huancaina-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Papa a la huancaína. Papas con salsa huancaína." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Entrada</span><h3>Papa a la huancaína</h3><p>Papas con salsa huancaína.</p></div>
+          </article>
+          <article class="dish-card">
+            <div class="dish-photo"><img src="assets/img/platos/ocopa-900.jpg" srcset="assets/img/platos/ocopa-480.jpg 480w, assets/img/platos/ocopa-900.jpg 900w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 45vw, 30vw" alt="Ocopa. Papas con salsa de ocopa." width="900" height="900" loading="lazy" decoding="async"></div>
+            <div class="dish-caption"><span class="eyebrow">Entrada</span><h3>Ocopa</h3><p>Papas con salsa de ocopa.</p></div>
+          </article></div>
+        </details>
+        <p class="image-disclaimer">Fotografías referenciales. La presentación final de los platos puede variar.</p>
+      </div>
+    </section>
+
+    <section class="celebrations section" id="servicios" aria-labelledby="celebrations-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Siempre hay un motivo</p><h2 id="celebrations-title">Tu ocasión. <br><em>Nuestra inspiración.</em></h2></div><p class="heading-aside">Catering para tus momentos más especiales.</p></div>
+        <div class="occasion-grid">
+          <article class="occasion-card"><div class="occasion-image"><img src="assets/img/eventos/referencia-4.jpg" alt="Mesa al aire libre para un matrimonio; imagen referencial" width="512" height="286" loading="lazy" decoding="async"><span class="occasion-number">01</span></div><div class="occasion-copy"><h3>Matrimonios</h3><p>Sabores para compartir el día de tu boda.</p><a href="#cotizador" class="occasion-link" data-event="Matrimonio" aria-label="Cotizar catering para un matrimonio">Conversemos <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></article>
+          <article class="occasion-card"><div class="occasion-image"><img src="assets/img/eventos/celebraciones-familia.jpg" alt="Familia compartiendo la comida alrededor de la mesa; imagen referencial" width="1200" height="801" loading="lazy" decoding="async"><span class="occasion-number">02</span></div><div class="occasion-copy"><h3>Celebraciones en familia</h3><p>Buena comida para reencontrarse y compartir en familia.</p><a href="#cotizador" class="occasion-link" data-event="Reunión familiar" aria-label="Cotizar catering para una celebración familiar">Conversemos <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></article>
+          <article class="occasion-card"><div class="occasion-image"><img class="corporate-photo" src="assets/img/eventos/eventos-corporativos.jpg" alt="Invitados reunidos en una cena formal con mesas servidas; imagen referencial de un evento corporativo" width="1200" height="1806" loading="lazy" decoding="async"><span class="occasion-number">03</span></div><div class="occasion-copy"><h3>Eventos corporativos</h3><p>Catering para reuniones y celebraciones de empresa.</p><a href="#cotizador" class="occasion-link" data-event="Evento empresarial" aria-label="Cotizar catering para un evento corporativo">Conversemos <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></article>
+        </div>
+        <details class="full-menu more-celebrations">
+          <summary><span class="menu-open-label">Descubrir más celebraciones</span><span class="menu-close-label">Ver menos celebraciones</span><span class="menu-count">3 ocasiones más</span><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plus"></use></svg></summary>
+          <div class="occasion-grid extended-menu">
+            <article class="occasion-card"><div class="occasion-image"><img class="birthday-photo" src="assets/img/eventos/cumpleanos.jpg" alt="Torta con frutas y velas encendidas en una celebración de cumpleaños; imagen referencial" width="1000" height="1500" loading="lazy" decoding="async"><span class="occasion-number">04</span></div><div class="occasion-copy"><h3>Cumpleaños</h3><p>Tu día, tus invitados y una buena mesa.</p><a href="#cotizador" class="occasion-link" data-event="Cumpleaños" aria-label="Cotizar catering para un cumpleaños">Conversemos <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></article>
+            <article class="occasion-card"><div class="occasion-image"><img src="assets/img/eventos/bautizos.jpg" alt="Mesa de bautizo con torta, flores y decoración blanca; imagen referencial" width="1000" height="1500" loading="lazy" decoding="async"><span class="occasion-number">05</span></div><div class="occasion-copy"><h3>Bautizos</h3><p>Una mesa para celebrar este día en familia.</p><a href="#cotizador" class="occasion-link" data-event="Bautizo" aria-label="Cotizar catering para un bautizo">Conversemos <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></article>
+            <article class="occasion-card"><div class="occasion-image"><img src="assets/img/eventos/aniversario-brindis.jpg" alt="Pareja mayor brindando con copas para celebrar su historia compartida; imagen referencial" width="1200" height="800" loading="lazy" decoding="async"><span class="occasion-number">06</span></div><div class="occasion-copy"><h3>Aniversarios</h3><p>Una mesa para brindar por los años compartidos.</p><a href="#cotizador" class="occasion-link" data-event="Aniversario" aria-label="Cotizar catering para un aniversario">Conversemos <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></article>
+          </div>
+        </details>
+        <p class="image-disclaimer">Imágenes de ambiente referenciales.</p>
+      </div>
+    </section>
+
+    <section class="details-section" id="servicio" aria-labelledby="details-title">
+      <div class="container details-grid">
+        <figure class="details-visual"><img src="assets/img/eventos/mesa-elegante-1600.jpg" srcset="assets/img/eventos/mesa-elegante-800.jpg 800w, assets/img/eventos/mesa-elegante-1600.jpg 1600w" sizes="(max-width: 600px) 135vw, 80vw" alt="Mesa de boda con cristalería, vajilla blanca, velas y flores naturales. Fotografía de ambiente referencial." width="1600" height="1067" loading="lazy" decoding="async"><figcaption>La elegancia de compartir la mesa. Fotografía referencial.</figcaption></figure>
+        <div class="details-copy"><p class="eyebrow">Más que un buen plato</p><h2 id="details-title">Los detalles <br>también <em>se sirven.</em></h2><p>Vajilla y atención para acompañar cada plato.</p><div class="included-item"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plate"></use></svg><div><h3>Vajilla y cubiertos</h3><p>Plato hotelero, cuchillo, tenedor y servilletas.</p></div></div><div class="included-item"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-service"></use></svg><div><h3>Atención durante el servicio</h3><p>Un mozo uniformado para servir los platos.</p></div></div><a class="underlined-link light-link" href="#cotizador">Hablemos de los detalles <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-arrow"></use></svg></a></div>
+      </div>
+    </section>
+
+    <section class="process section" aria-labelledby="process-title">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">Así empieza tu celebración</p><h2 id="process-title">De una idea <br>a una <em>mesa compartida.</em></h2></div><p class="heading-aside">El primer paso es sencillo: <br>cuéntanos qué tienes en mente.</p></div>
+        <ol class="process-grid"><li><span class="step-number">01</span><h3>Cuéntanos tu idea</h3><p>La ocasión, la fecha y cuántas personas compartirán la mesa.</p></li><li><span class="step-number">02</span><h3>Conversemos del menú</h3><p>Consulta las opciones de platos y los detalles del servicio para tu evento.</p></li><li><span class="step-number">03</span><h3>Define tu propuesta</h3><p>Coordina directamente con LILAS la disponibilidad y la cotización.</p></li></ol>
+      </div>
+    </section>
+
+    <section class="questions section" aria-labelledby="questions-title"><div class="container questions-grid"><div><p class="eyebrow">Antes de sentarnos a la mesa</p><h2 id="questions-title">Un poco <br>más de <em>claridad.</em></h2><p>Lo esencial para empezar a organizar tu evento.</p></div><div class="faq-list">
+      <details><summary>¿Qué tipos de eventos atienden? <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plus"></use></svg></summary><div><p>Ofrecemos catering para cumpleaños, matrimonios, bautizos, aniversarios, reuniones familiares y eventos empresariales.</p></div></details>
+      <details><summary>¿Qué incluye el servicio? <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plus"></use></svg></summary><div><p>Incluye plato hotelero, cuchillo, tenedor, servilletas y un mozo uniformado para servir la comida. Consulta los detalles de la propuesta según tu evento.</p></div></details>
+      <details><summary>¿Puedo consultar por distintos platos? <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plus"></use></svg></summary><div><p>Sí. Puedes explorar nuestras entradas y platos de fondo, y consultar directamente con LILAS por las opciones disponibles para tu celebración.</p></div></details>
+      <details><summary>¿Cómo solicito una cotización? <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-plus"></use></svg></summary><div><p>Completa el formulario con los datos de tu evento. Se abrirá WhatsApp con tu consulta preparada: revísala y pulsa enviar para contactar a LILAS.</p></div></details>
+    </div></div></section>
+
+    <section class="contact-section section" id="cotizador" aria-labelledby="contact-title"><div class="container contact-grid">
+      <div class="contact-copy"><p class="eyebrow">Hagamos espacio para tu celebración</p><h2 id="contact-title">Tu próxima <br>gran historia <br><em>empieza aquí.</em></h2><p>Cuéntanos qué estás organizando. <br>Nos encantará ser parte de tu mesa.</p><a class="contact-direct" href="https://wa.me/51971621383?text=Hola%2C%20quisiera%20solicitar%20una%20cotizaci%C3%B3n%20para%20mi%20evento" target="_blank" rel="noopener noreferrer"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg><span><small>Conversemos por WhatsApp</small><strong>+51 971 621 383</strong></span><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a><a class="contact-email" href="mailto:lilascatering.eventos@gmail.com">lilascatering.eventos@gmail.com <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a><div class="contact-signature" aria-hidden="true"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-flower"></use></svg><span>Con cariño, <br><span>LILAS</span></span></div></div>
+      <div class="quote-panel"><div class="form-heading"><span class="eyebrow">Una celebración a tu medida</span><h3>Hablemos de tu evento</h3><p>Comparte los detalles que ya tienes en mente.</p></div>
+        <form id="quoteForm" class="quote-form">
+          <fieldset><legend><span>01</span> Tus datos</legend><div class="form-grid"><div class="form-field"><label for="name">Nombre <span aria-hidden="true">*</span></label><input id="name" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre" required></div><div class="form-field"><label for="phone">Teléfono / WhatsApp <span aria-hidden="true">*</span></label><input id="phone" name="telefono" type="tel" autocomplete="tel" placeholder="999 999 999" required></div><div class="form-field full-width"><label for="email">Correo electrónico <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="nombre@ejemplo.com" required></div></div></fieldset>
+          <fieldset><legend><span>02</span> Tu celebración</legend><div class="form-grid"><div class="form-field full-width"><label for="type">Tipo de evento <span aria-hidden="true">*</span></label><select id="type" name="tipo" required><option value="" selected disabled>¿Qué vamos a celebrar?</option><option value="Cumpleaños">Cumpleaños</option><option value="Matrimonio">Matrimonio</option><option value="Bautizo">Bautizo</option><option value="Aniversario">Aniversario</option><option value="Reunión familiar">Reunión familiar</option><option value="Evento empresarial">Evento empresarial</option><option value="Otro evento">Otro evento</option></select></div><div class="form-field"><label for="date">Fecha <span aria-hidden="true">*</span></label><input id="date" name="fecha" type="date" required></div><div class="form-field"><label for="guests">Invitados <span aria-hidden="true">*</span></label><input id="guests" name="invitados" type="number" min="1" max="2000" placeholder="Ej. 80" required></div><div class="form-field full-width"><label for="message">¿Algo más que quieras contarnos? <span class="optional">Opcional</span></label><textarea id="message" name="detalles" rows="3" placeholder="Platos que te interesan, lugar del evento, ideas..."></textarea></div></div></fieldset>
+          <p class="required-note">* Campos obligatorios</p><button class="button button-plum submit-button" type="submit">Continuar en WhatsApp <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg></button><p class="form-help" id="formMessage" role="status">Se abrirá WhatsApp con tu consulta preparada. Revísala y pulsa enviar. Esta página no guarda tus datos.</p>
+        </form>
+      </div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-top"><a class="brand footer-brand" href="#inicio" aria-label="LILAS, volver al inicio"><span class="brand-name">LILAS</span><span class="brand-tagline">CATERING & EVENTOS</span></a><p>El gusto de reunirnos. <br>El placer de compartir.</p><a class="footer-back" href="#arriba">Volver al inicio <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-arrow"></use></svg></a></div><div class="footer-main"><nav aria-label="Navegación del pie"><a href="#filosofia">Nuestra esencia</a><a href="#sabores">La carta</a><a href="#servicios">Celebraciones</a><a href="#cotizador">Contacto</a></nav><div class="footer-social"><a href="https://www.facebook.com/profile.php?id=100093959073505&amp;locale=es_LA" target="_blank" rel="noopener noreferrer">Facebook <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a><a href="https://wa.me/51971621383?text=Hola%2C%20quisiera%20solicitar%20una%20cotizaci%C3%B3n%20para%20mi%20evento" target="_blank" rel="noopener noreferrer">WhatsApp <svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-diagonal"></use></svg></a></div></div><div class="footer-bottom"><span>© <span id="year">2026</span> LILAS Catering & Eventos.</span><span>Hecho para compartir buenos momentos.</span></div></div></footer>
+  <a class="contact-float" href="https://wa.me/51971621383?text=Hola%2C%20quisiera%20solicitar%20una%20cotizaci%C3%B3n%20para%20mi%20evento" target="_blank" rel="noopener noreferrer" aria-label="Consultar por WhatsApp (abre en una pestaña nueva)"><svg class="icon " aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg><span>Conversemos</span></a>
+</body>
+</html>
